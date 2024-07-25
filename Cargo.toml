@@ -1,0 +1,17 @@
+[package]
+name = "apigen"
+version = "0.1.0"
+edition = "2021"
+authors = ["naskoow"]
+description = "Generate API client from OpenAPI 3.1 spec"
+license = "MIT"
+repository = "https://github.com/naskopw/apigen"
+readme = "README.md"
+
+
+[dependencies]
+clap = { version = "4.5.10", features = ["derive"] }
+oas3 = "0.8.1"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0.63"
